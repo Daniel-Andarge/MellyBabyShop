@@ -85,7 +85,7 @@ body {
 /* ====================== */
 [data-id="3af58497"],
 [data-id="41029cb6"] {
-  background-color: #81d1e5 !important;
+  background-color: #F2F2F7 !important;
 }
 
 /* Hide bzotech_list_link_global widget */
@@ -96,11 +96,14 @@ body {
 /* Set background color for bzotech-mini-cart-global widget */
 .elementor-element-77470bb6,
 [data-id="77470bb6"] {
-  background-color: #81d1e5 !important;
+  background-color: #F2F2F7 !important;
 }
 /* Set background color for mini-cart-link */
+.elbzotech-bt-default elbzotech-bt-full {
+  background-color: #D43D9D  !important;
+}
 a.mini-cart-link {
-  background-color: #81d1e5 !important;
+  background-color: #F2F2F7!important;
 }
 
 /* ====================== */
@@ -111,6 +114,6 @@ a.mini-cart-link {
 [data-id="3af58497"],
 [data-id="41029cb6"],
 [data-id="20c6144e"] {
-  background-color: #81d1e5 !important;
+  background-color: #F2F2F7 !important;
   border-top: none !important;
 }

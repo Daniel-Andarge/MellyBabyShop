@@ -29,7 +29,7 @@
     "forceSessionCookieExpiry": 0,
     "iosCustomHeaders": {},
     "androidCustomHeaders": {},
-    "version": 186
+    "version": 204
   },
   "navigation": {
     "tabNavigation": {
@@ -209,27 +209,8 @@
         {
           "id": "1",
           "regex": "Shop(\\s*-\\s*Melly Baby Shop)?",
-          "replacement": "Shop"
-        },
-        {
-          "id": "2",
-          "regex": "Home(\\s*-\\s*Melly Baby Shop)?",
-          "replacement": "Home"
-        },
-        {
-          "id": "3",
-          "regex": "Wishlist(\\s*-\\s*Melly Baby Shop)?",
-          "replacement": "Wishlist"
-        },
-        {
-          "id": "4",
-          "regex": "Categories(\\s*-\\s*Melly Baby Shop)?",
-          "replacement": "Categories"
-        },
-        {
-          "id": "5",
-          "regex": "Cart(\\s*-\\s*Melly Baby Shop)?",
-          "replacement": "Cart"
+          "replacement": "Shop",
+          "customTitle": false
         }
       ],
       "active": true
@@ -378,7 +359,7 @@
     "iosDarkMode": "auto",
     "iosTitleColor": "#000000",
     "iosTitleColorDark": "#ffffff",
-    "iosTintColor": "#FF66C4",
+    "iosTintColor": "#D43D9D",
     "iosTintColorDark": "#ffffff",
     "iosSidebarTextColor": "#0E0D08",
     "iosSidebarTextColorDark": "#ffffff",
@@ -387,11 +368,11 @@
     "iosEnableBlurInStatusBar": false,
     "iosSidebarBackgroundColor": "#f8f8f8",
     "iosSidebarBackgroundColorDark": "#202020",
-    "iosNavigationBarTintColor": "#81d1e5",
+    "iosNavigationBarTintColor": "#F2F2F7",
     "iosNavigationBarTintColorDark": "#202020",
-    "iosTabBarTintColor": "#81d1e5",
+    "iosTabBarTintColor": "#F2F2F7",
     "iosTabBarTintColorDark": "#000000",
-    "iosTabBarInactiveColor": "#000000",
+    "iosTabBarInactiveColor": "#3C3C43",
     "iosTabBarInactiveColorDark": "#818181",
     "icon": "https://s3.amazonaws.com/gonativeio/app_files/bzqyyn/app_icon_ios_1744223987681.png",
     "iosHeaderImage": "https://s3.amazonaws.com/gonativeio/app_files/bzqyyn/ios-Light_1744736066051.png",
@@ -405,15 +386,15 @@
     "androidBackgroundColor": "#FFFFFF",
     "androidSidebarBackgroundColor": "#FFFFFF",
     "androidSidebarForegroundColor": "#1A100B",
-    "androidActionBarBackgroundColor": "#81d1e5",
+    "androidActionBarBackgroundColor": "#F2F2F7",
     "androidActionBarForegroundColor": "#000000",
     "androidPullToRefreshColor": "#1A100B",
-    "androidAccentColor": "#FF66C4",
+    "androidAccentColor": "#D43D9D",
     "androidSidebarSeparatorColor": "#CCCCCC",
     "androidSidebarHighlightColor": "#1A100B",
-    "androidTabBarBackgroundColor": "#81d1e5",
-    "androidTabBarTextColor": "#000000",
-    "androidTabBarIndicatorColor": "#FF66C4",
+    "androidTabBarBackgroundColor": "#F2F2F7",
+    "androidTabBarTextColor": "#3C3C43",
+    "androidTabBarIndicatorColor": "#D43D9D",
     "androidTabPressedBackgroundColor": "#CCCCCC",
     "androidStatusBarBackgroundColor": "#5C5C5C",
     "androidShowLogoInSideBar": true,
@@ -460,7 +441,7 @@
     "androidHeaderImage": "assets/defaults/app-icon-placeholder.png",
     "androidHeaderImageDark": "assets/defaults/app-icon-placeholder.png",
     "iosHeaderImageDark": "https://s3.amazonaws.com/gonativeio/app_files/bzqyyn/ios-Dark_1744223908421.png",
-    "customCSSUrl": "https://s3.amazonaws.com/gonativeio/app_files/bzqyyn/custom_css_1744735590432.css"
+    "customCSSUrl": "https://s3.amazonaws.com/gonativeio/app_files/bzqyyn/custom_css_1744925060482.css"
   },
   "permissions": {
     "usesGeolocation": false,
